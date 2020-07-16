@@ -24,7 +24,9 @@ batch_size = 6
 
 from transformers import AutoTokenizer, TFBertForSequenceClassification
 
-model_name="bert-base-uncased" 
+model_name="bert-tiny-uncased" 
+#model_name="bert-base-uncased"
+#model_name="bert-large-uncased"
 
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
